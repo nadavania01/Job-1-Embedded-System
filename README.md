@@ -2,9 +2,11 @@
 Job 1 embedded system Dasar Pemrograman ESP32 untuk pemrosesan data input/output analog dan digital, 
 
 
-Percobaan a. GPIO
+**Percobaan a. GPIO**
 
-.
+Percobaan GPIO memiliki bentuk rangkaian sebagai berikut,
+
+
 
 
 https://user-images.githubusercontent.com/121012286/208829230-064dfae6-e5a4-4ec6-8c55-43c83e729ba3.mp4
@@ -43,4 +45,47 @@ https://user-images.githubusercontent.com/121012286/208830190-47a64d0d-d5e4-420c
 
 
 Pada percobaan di atas hasilnya yaitu ketiga lampu LED menyala secara berurutan (running) dari kiri ke kanan
+
+
+**Percobaan b.PWM**
+
+Percobaan 1 
+
+Pada percobaan PWM terdapat 3 LED, dan percobaan pertama dapat dilihat hasil dari percobaan ini adalah hanya 
+1 LED yang menyala dari ketiga LED 
+
+https://user-images.githubusercontent.com/121012286/208831901-34a8d5e1-6ca2-4792-9579-9ba3aebfe3cd.mp4
+
+
+Percobaan 2
+
+Pada percobaan kedua PWM terdapat 3 LED dan hasil dari percobaan kedua adalah ketiga lampu tersebut
+menyala secara bersamaan dan looping.
+
+
+
+https://user-images.githubusercontent.com/121012286/208832819-d0973037-fa9d-4f7b-ac26-b576aa18b4e6.mp4
+
+
+
+**Percobaan c. ADC dan DAC**
+
+Percobaan Pertama
+
+
+
+https://user-images.githubusercontent.com/121012286/208833988-c52867d0-b8f9-4197-bd0d-e927b9159ea5.mp4
+
+
+Pada percobaan di atas rangkaian tidak menggunakan lampu LED dan hanya menggunakan potensio, hasil dari percobaan di atas adalah
+apabila kita memutar potensio ke kanan maka resistansi potensio akan meningkat dan hasil yang terpampang pada serial monitor
+akan menunjukkan semakin tinggi angkanya.
+
+Percobaan Kedua
+
+
+https://user-images.githubusercontent.com/121012286/208833290-6b28b2e4-5fb7-4209-a19b-2291ad3dc8c1.mp4
+
+Pada percobaan di atas menggunakan potensio dan sebuah lampu LED, hasil dari percobaan akan muncul pada serial monitor
+Apabila diputar ke kanan resistansi potensio akan semakin besar dan semakin tinggi daya potensio maka lampu akan semakin redup.
 
