@@ -1,11 +1,11 @@
 # Job-1-Embedded-System
 Job 1 embedded system Dasar Pemrograman ESP32 untuk pemrosesan data input/output analog dan digital, 
 
-
 **Percobaan a. GPIO**
 
 Percobaan GPIO memiliki bentuk rangkaian sebagai berikut,
 
+<img width="329" alt="gambar rangkaian GPIO" src="https://user-images.githubusercontent.com/121012286/208860130-da0b50c6-96f8-49ac-b55c-dc2267a953ec.png">
 
 
 
@@ -49,6 +49,12 @@ Pada percobaan di atas hasilnya yaitu ketiga lampu LED menyala secara berurutan 
 
 **Percobaan b.PWM**
 
+Percobaan PWM memiliki rangkaian sebagai berikut,
+
+<img width="368" alt="RAngkaian PWM" src="https://user-images.githubusercontent.com/121012286/208860370-d518d685-1e27-4fc9-9b88-fe533c6d613a.png">
+
+
+
 Percobaan 1 
 
 Pada percobaan PWM terdapat 3 LED, dan percobaan pertama dapat dilihat hasil dari percobaan ini adalah hanya 
@@ -69,6 +75,11 @@ https://user-images.githubusercontent.com/121012286/208832819-d0973037-fa9d-4f7b
 
 
 **Percobaan c. ADC dan DAC**
+
+Percobaan ADC dan DAC memiliki rangkaian sebagai berikut,
+
+<img width="416" alt="Rangkaian ADC DAC" src="https://user-images.githubusercontent.com/121012286/208860480-efdc27ac-3e8e-49dc-bbd8-a4959c084236.png">
+
 
 Percobaan Pertama
 
