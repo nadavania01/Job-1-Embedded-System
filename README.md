@@ -1,12 +1,44 @@
 # Job-1-Embedded-System
 Job 1 embedded system Dasar Pemrograman ESP32 untuk pemrosesan data input/output analog dan digital, 
 
+Langkah Percobaan :
+
+Instalasi Board ESP32 pada Arduino IDE
+
+1. Buka Arduino IDE
+2. Kemudian klik Menu File > Preferences
+3. Pada kolom Additional ... yang ada dibawah, tambahkan link berikut
+https://dl.espressif.com/dl/package_esp32_index.json
+4. Klik menu Tools > Board: > Pilih Boards Manager ...
+5. Pada kolom pencarian tulis ESP32 kemudian install dan tunggu sampai 
+selesai.
+
+
 **Percobaan a. GPIO**
+
+Langkah Kerja :
+
 
 Percobaan GPIO memiliki bentuk rangkaian sebagai berikut,
 
 <img width="329" alt="gambar rangkaian GPIO" src="https://user-images.githubusercontent.com/121012286/208860130-da0b50c6-96f8-49ac-b55c-dc2267a953ec.png">
 
+2. Buka program example blink, kemudian modifikasi dan buat agar LED dapat 
+melakukan blink dengan interval 100ms, 1 detik, 2 detik dan 3 detik sekali. 
+Setelah itu, buatlah program agar LED dapat blink 1 detik sekali 
+menggunakan timer milis(). Dokumentasikan hasilnya.
+
+3. Buatlah program seperti pada script di bawah ini untuk mengendalikan led 
+menggunakan push button. Kemudian upload program tersebut pada ESP32
+dan dokumentasikan hasilnya.
+
+4. Tambahkan 1 LED dan 1 push button pada rangkaian, kemudian kembangkan 
+program agar ketika push button ke-2 ditekan, LED akan melakukan blink 
+setiap 500 ms sekali. Kemudian dokumentasikan hasilnya.
+
+5. Tambahkan 3 LED dan 1 push button pada rangkaian, kemudian kembangkan 
+program agar ketuka push button ke-3 ditekan, LED akan menyala menjadi 
+running led (menyala bergantian dari kiri ke kanan). 
 
 
 https://user-images.githubusercontent.com/121012286/208829230-064dfae6-e5a4-4ec6-8c55-43c83e729ba3.mp4
@@ -49,6 +81,11 @@ Pada percobaan di atas hasilnya yaitu ketiga lampu LED menyala secara berurutan 
 
 **Percobaan b.PWM**
 
+Langkah Kerja :
+
+Buatlah script (sudah terlampir pada file) lalu diunggah dan amati hasilnya
+
+
 Percobaan PWM memiliki rangkaian sebagai berikut,
 
 <img width="368" alt="RAngkaian PWM" src="https://user-images.githubusercontent.com/121012286/208860370-d518d685-1e27-4fc9-9b88-fe533c6d613a.png">
@@ -75,6 +112,18 @@ https://user-images.githubusercontent.com/121012286/208832819-d0973037-fa9d-4f7b
 
 
 **Percobaan c. ADC dan DAC**
+
+Langkah Kerja :
+1. Buatlah program seperti pada script berikut ini (sudah terlampir pada file)
+
+2.Putar potensiometer secara perlahan agar mendapatkan nilai 0 hingga 4095 
+pada tampilan serial monitor. Analisis apa yang terjadi dan dokumentasikan 
+hasilnya.
+
+3. Buatlah program seperti pada script berikut ini.Tambahkan LED pada GPIO 
+
+4.Upload program, kemudian putar potensiometer dari nilai terendah hingga 
+nilai tertinggi. Amati yang terjadi, analisis dan dokumentasikan hasilnya.
 
 Percobaan ADC dan DAC memiliki rangkaian sebagai berikut,
 
