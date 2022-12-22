@@ -32,6 +32,9 @@ menggunakan timer milis(). Dokumentasikan hasilnya.
 menggunakan push button. Kemudian upload program tersebut pada ESP32
 dan dokumentasikan hasilnya.
 
+<img width="264" alt="tutor job 1 a" src="https://user-images.githubusercontent.com/121012286/209133097-b972eeb2-5c76-4634-8cbc-3af1e26dd417.png">
+
+
 4. Tambahkan 1 LED dan 1 push button pada rangkaian, kemudian kembangkan 
 program agar ketika push button ke-2 ditekan, LED akan melakukan blink 
 setiap 500 ms sekali. Kemudian dokumentasikan hasilnya.
@@ -85,12 +88,18 @@ Langkah Kerja :
 
 Buatlah script (sudah terlampir pada file) lalu diunggah dan amati hasilnya
 
+<img width="258" alt="pwmm" src="https://user-images.githubusercontent.com/121012286/209133296-f1aab8ca-5cc5-46b1-8518-160fd1c2a0d0.png">
 
 Percobaan PWM memiliki rangkaian sebagai berikut,
 
 <img width="368" alt="RAngkaian PWM" src="https://user-images.githubusercontent.com/121012286/208860370-d518d685-1e27-4fc9-9b88-fe533c6d613a.png">
 
+Buatlah program lanjutan seperti pada script berikut ini.
 
+<img width="198" alt="pwm 2" src="https://user-images.githubusercontent.com/121012286/209133452-d894d212-7758-4119-bdd8-30820915be5a.png">
+
+Upload program tersebut, kemudian amati dan analisis apa yang terjadi serta 
+dokumentasikan hasilnya.
 
 Percobaan 1 
 
@@ -115,6 +124,13 @@ https://user-images.githubusercontent.com/121012286/208832819-d0973037-fa9d-4f7b
 
 Langkah Kerja :
 1. Buatlah program seperti pada script berikut ini (sudah terlampir pada file)
+
+![image](https://user-images.githubusercontent.com/121012286/209133568-ba05b49f-e490-4e51-9320-0597c4df917a.png)
+
+Buatlah program seperti di bawah ini lalu upload
+
+![image](https://user-images.githubusercontent.com/121012286/209133642-0aa84035-e23c-4f80-a3c9-407a274e289e.png)
+
 
 2.Putar potensiometer secara perlahan agar mendapatkan nilai 0 hingga 4095 
 pada tampilan serial monitor. Analisis apa yang terjadi dan dokumentasikan 
